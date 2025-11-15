@@ -16,7 +16,7 @@ jobs:
   sync-worker:
     runs-on: ubuntu-latest
     env:
-      UPSTREAM_REPO: https://github.com/byJoey/cfnew
+      UPSTREAM_REPO: https://github.com/eooce/Cloudflare-proxy
       UPSTREAM_FILE: shadowsocks.js
 
     steps:
